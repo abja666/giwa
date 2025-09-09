@@ -10,5 +10,5 @@ pnpm add viem solc prompts colorette figlet gradient-string boxen ora
 pnpm add -D tsx typescript @types/node
 
 # run
-pnpm run giwa:cli
+pnpm run giwa:bot
 
