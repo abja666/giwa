@@ -31,13 +31,13 @@ function banner() {
   console.log(gradient.cristal.multiline(ascii));
 
   // "bot by 0xb" selalu center & rainbow
-  const credit = 'bot by 0xb';
+  const credit = 'Bot by Bazzz';
   const width = process.stdout.columns || 80;
   const pad = Math.max(0, Math.floor((width - credit.length) / 2));
   console.log(gradient.rainbow(' '.repeat(pad) + credit) + '\n');
 
   const box = boxen(
-    `Unified CLI — Bridge + ERC20\nWallet: ${account.address}`,
+    `Bridge + Deploy ERC20\nWallet: ${account.address}`,
     { padding: 1, borderStyle: 'round', borderColor: 'cyan' }
   );
   console.log(box);
