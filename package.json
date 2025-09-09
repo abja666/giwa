@@ -1,0 +1,21 @@
+{
+  "name": "giwa-bridge",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node --import=tsx src/cli.ts",
+    "deposit": "node --import=tsx src/deposit_eth.ts",
+    "withdraw": "node --import=tsx src/withdraw_eth.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "tsx": "^4.19.1"
+  },
+  "dependencies": {
+    "colorette": "^2.0.20",
+    "dotenv": "^17.2.2",
+    "prompts": "^2.4.2",
+    "viem": "^2.21.15"
+  }
+}
